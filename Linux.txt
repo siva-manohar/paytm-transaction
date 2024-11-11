@@ -1,0 +1,287 @@
+Linux: 24/10/2024
+
+Linux is an operating system. ---> 60% of your cloud is done
+
+1. Security level is higher than the windows
+2. User interface
+3. Most preferrable OS for the cloud based application
+
+Interface:
+
+1. GUI ---> graphical user interface
+
+2. CLI ---> command line interface
+
+If you download the GUI, it will be available of both GUI and CLI
+
+***Note: When it comes to the cloud there is no graphical user interface, you will be working on the only command line interface
+
+by default any Linux operating system will have 2 users:
+
+1. root user = super user = sudo user ---> username ="root"
+
+2. Distribution user
+
+Linux distributions:
+
+1. Ubuntu ----> username: "ubuntu"
+
+2. Redhat ---> username: "ec2_user"
+
+3. Amazon Linux ---> username: "ec2_user"
+
+4. SUSE ---> username: "suse_linux"
+
+5. Parrot OS
+
+
+ubuntu@ip-172-31-38-21:~$
+
+username@ADDRESS_OF_THE_MACHINE
+
+Linux global Commands:
+
+1. pwd = present working directory
+
+
+directory (Linux) = folder (windows)
+
+2. ls = list of files or directory listing 
+
+3. ls -la = listing out the files including hidden files
+
+4. cd DIRECTORY_NAME  ---> change directory
+
+5. cd .. ---> it will take you one step backwards
+
+6. mkdir DIRECTORY_NAME --> mkdir = make directory. it will create a new directory
+
+7. clear ---> clear your workspace
+
+8. How to create the file ?
+
+option-1: where you can create file first ( which is empty ) and then you can edit later.
+
+	command: touch FILE_NAME
+
+	How to create the multiple files together ?
+
+	command: touch FILE_NAME-{1..25}
+
+option-2: where you can create the file and write/insert the data at a time
+
+	command: echo "DATA" > FILE_NAME
+	example: echo "This is the second option for the creating of the file" > siva-devops
+
+
+option-3: Editors ---> where you will entering the data first then save it later
+
+	Popular editors in Linux OS: "VIM" and "NANO"
+
+	nano editor: 
+
+		command: nano FILE_NAME
+	
+
+10.  How to verify the data is successfully created inside the file ?
+
+    What is the command to print the file ?
+
+	command: cat FILE_NAME
+
+11. How to delete the files ?
+
+	command: rm FILE_NAME
+
+   How to delete multiple files?
+
+	command: rm FILE_NAME_1 FILE_NAME_2
+
+   How to delete the multiple files which are having a common name ?
+
+	command: rm COMMON_NAME-*
+
+12. rmdir DIRECTORY_NAME ---> delete only the empty directories
+
+13. How to delete a directory which is having files in it ?
+
+	rm -rf DIRECTORY_NAME ---> rm = remove, r = recursive and directory, f = forcefully
+
+	deleting the directory with forcefully when the files are still in there.
+
+14. How to move the files from directory to another ?
+
+	mv SOURCE_FILE DESTINATION_PLACE
+
+	how to move multiple files from directory to another ?
+
+	mv SOURCE_FILE_1 SOURCE_FILE_2 SOURCE_FILE_3 DESTINATION_PLACE
+
+	How to rename the file ?
+
+	mv PRESENT_FILE_NAME NEW_FILE_NAME
+
+15. how to copy files from directory to another ?
+
+	cp SOURCE_FILE DESTINATION_PLACE
+
+	how to copy multiple files from directory to another ?
+
+	cp SOURCE_FILE_1 SOURCE_FILE_2 SOURCE_FILE_3 DESTINATION_PLACE
+
+
+Advanced data:
+
+16. How to create a users ?
+
+	command: useradd USERNAME
+	
+	example: useradd syed
+
+	option-1: ubuntu should the convince the user who has the access to run the command thats user is the root user
+
+	command: sudo useradd USERNAME ---> running by ubuntu
+	
+
+	option-2: switching to the root user where the root user only running the commands.
+
+How to switch to the root user ?
+
+command: sudo -s
+
+how to come back from root user to general/distribution user ?
+
+command: exit
+
+*** where you can see the list of users and their data in the Linux OS ??
+
+Ans: /etc/passwd
+
+Inside the file, users data will be stored like below:
+
+vinay:x:1001:1001::/home/vinay:/bin/sh
+
+username:password:user_id(UID):group_id(GID):COMMENTS:PATH_OF_THE_USER:EXECUTION_MODEL
+
+17. Password for the user:
+
+	passwd USER_NAME
+
+18. How to create a group ?
+
+	command: groupadd GROUP_NAME
+
+*** where you can see the list of groups and their data in the Linux OS ??
+	
+Ans: /etc/group
+
+	devops:x:1003:vinay
+
+	GROUP_NAME:PASSWORD:Group_ID(GID):USERS_IN_THE_GROUP
+
+19. How to add users to the group ?
+
+	command: usermod -aG GROUP_NAME USERNAME
+
+20. How to remove the users from the group ?
+
+	command: gpasswd -d USERNAME GROUP_NAME
+
+21. How to delete the user ?
+
+	command: userdel USERNAME
+
+22. How to delete the group ?
+
+	command: groupdel GROUPNAME
+
+More advanced data
+
+23. FILE Permissions:
+
+There will be 10 letters on the file permissions:
+
+d rwxrwxr-x  ---> directory/folder
+
+- rw-rw-r--  ---> file
+
+d rwxrwxr-x  ---> directory/folder
+
+
+r = read = 4 points
+w = write = 2 points
+x = execute = 1 point
+- = null = 0 points
+
+1    2   3
+rwx rwx r-x
+rw- rw- r--
+rwx rwx r-x
+
+1st part: The permissions of the user who created the file/directory = owner
+
+2nd part: It is the permissions to the group = group
+
+3rd part: It is the permissions to the others = others
+
+
+1st:part		2nd:part		3rd:part
+r	w	x	r	w	x	r	-	x
+4 + 2 + 1		4 + 2 + 1		4 + 0 + 1
+7			7			5
+
+
+775
+
+After fight:
+
+1st:part		2nd:part		3rd:part
+r	w	x	r	-	-	r	-	-
+4 + 2 + 1		4 + 0 + 0		4 + 0 + 0
+7			4			4
+
+744
+
+
+d rwx --- ---
+
+700
+
+rwx r-x -wx
+753
+
+
+r-- r-x rw-
+456
+
+
+rwxr-xr-x
+755
+
+24. Changed ownership 
+
+	command: chown DESIRED_USERNAME:DESIRED_GROUP  FILE_NAME
+
+25. CPU memory utilization:
+	
+	command: htop
+	
+	command: free -m 
+
+26. disk utilization
+
+	command: df -h ( df = diskfree )
+
+
+
+
+
+
+
+
+
+
+
+
+
+

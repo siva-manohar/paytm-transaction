@@ -1,0 +1,229 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="KXfUFgAGhoED5xlEbtM9">
+    <mxGraphModel dx="840" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MOdhMIkQ6n2yi7J6jhkV-1" target="MOdhMIkQ6n2yi7J6jhkV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-1" value="AWS Organization Account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MOdhMIkQ6n2yi7J6jhkV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-4" value="&lt;b&gt;CTO&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-6" value="&lt;b&gt;IAM User&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-7" value="&lt;b&gt;Root user&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-10" value="&lt;b&gt;Charan&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-15" value="&lt;b&gt;Administrator Access&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-16" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-19" value="&lt;b&gt;Suma&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-20" value="&lt;b&gt;IAM User&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MOdhMIkQ6n2yi7J6jhkV-22" target="MOdhMIkQ6n2yi7J6jhkV-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-22" value="AWS Organization Account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MOdhMIkQ6n2yi7J6jhkV-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-24" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="930" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-25" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="700" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-26" value="&lt;b&gt;Client&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-27" value="&lt;b&gt;IAM User&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-28" value="&lt;b&gt;Root user&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MOdhMIkQ6n2yi7J6jhkV-29" target="MOdhMIkQ6n2yi7J6jhkV-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-29" value="&lt;b&gt;Charan&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-30" value="&lt;b&gt;Administrator Access&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MOdhMIkQ6n2yi7J6jhkV-31" target="MOdhMIkQ6n2yi7J6jhkV-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-31" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1080" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-32" value="&lt;b&gt;IAM User&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-33" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;b&gt;Product manager/Delivery manager&lt;/b&gt;&lt;/blockquote&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-36" value="&lt;b&gt;Suma&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-41" value="&lt;b&gt;Limited Access where you can create/delete another user&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-48" value="&lt;b&gt;Policies = Permissions&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="290" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-49" value="&lt;b&gt;Restricted Access&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-55" value="" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1150" width="210" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-57" value="&lt;b&gt;Cloud Group&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MOdhMIkQ6n2yi7J6jhkV-59" target="MOdhMIkQ6n2yi7J6jhkV-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-59" value="&lt;b&gt;1. VPC&lt;br&gt;2. EKS&lt;br&gt;3. ECS&lt;br&gt;4. S3&lt;br&gt;5. EC2&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1195" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-61" value="&lt;b&gt;List of permissions&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-63" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-64" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MOdhMIkQ6n2yi7J6jhkV-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1330" as="sourcePoint" />
+            <mxPoint x="340" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-66" value="&lt;b&gt;1. Security group&lt;br&gt;2. Lambda&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-67" value="&lt;b&gt;Individual permissions&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-70" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1155" width="200" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MOdhMIkQ6n2yi7J6jhkV-71" target="MOdhMIkQ6n2yi7J6jhkV-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-71" value="&lt;b&gt;1. VPC&lt;br&gt;2. EKS&lt;br&gt;3. ECS&lt;br&gt;4. S3&lt;br&gt;5. EC2&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1195" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-78" value="EC2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-79" value="S3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-83" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MOdhMIkQ6n2yi7J6jhkV-78" target="MOdhMIkQ6n2yi7J6jhkV-79">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="410" y="1830" as="sourcePoint" />
+            <mxPoint x="510" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-84" value="IAM ROLES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1630" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-85" value="The Communication between the services is considered as roles" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-86" value="IAM ROLE = Single or multiple attachment of the policies" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1570" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-87" value="Siva" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-88" value="Vamshi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-90" value="S3 Permissions as a role should be attached to the EC2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1960" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-91" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1740" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-92" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Vamshi Flat keys&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1750" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.356;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MOdhMIkQ6n2yi7J6jhkV-91" target="MOdhMIkQ6n2yi7J6jhkV-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="1765" />
+              <mxPoint x="140" y="1661" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-95" value="Role" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-96" value="RDS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-97" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MOdhMIkQ6n2yi7J6jhkV-78" target="MOdhMIkQ6n2yi7J6jhkV-96">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="290" y="1680" as="sourcePoint" />
+            <mxPoint x="490" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-98" value="Charan Car" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1830" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-99" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Charan Car keys&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1790" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-100" value="EFS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-101" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="MOdhMIkQ6n2yi7J6jhkV-100">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="280" y="1670" as="sourcePoint" />
+            <mxPoint x="490" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-111" value="Suma Credit card" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1950" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdhMIkQ6n2yi7J6jhkV-112" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Suma Credit Card details&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1830" width="50" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
